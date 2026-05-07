@@ -41,7 +41,7 @@ HospitalWardSystem/
 
 ---
 
-## ⚙️ LED & Buzzer Behaviour
+## LED & Buzzer Behaviour
 
 | State    | LED Armed | LED Stable | LED Warning | LED Critical | Buzzer          |
 |----------|-----------|------------|-------------|--------------|-----------------|
