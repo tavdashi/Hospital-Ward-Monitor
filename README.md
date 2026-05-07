@@ -3,7 +3,7 @@
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 HospitalWardSystem/
@@ -24,7 +24,7 @@ HospitalWardSystem/
 
 ---
 
-## 🔌 Hardware Wiring
+## Hardware Wiring
 
 | Component        | Arduino Pin | Purpose                                |
 |------------------|-------------|----------------------------------------|
@@ -52,7 +52,7 @@ HospitalWardSystem/
 
 ---
 
-## 🚀 Step-by-Step Setup
+## Step-by-Step Setup
 
 ### Step 1 — Arduino
 1. Open `arduino/HospitalWard.ino` in Arduino IDE
@@ -84,11 +84,11 @@ run.bat COM3
 ```
 
 The script will:
-- ✅ Verify Java installation
-- ✅ Compile Java source files  
-- ✅ Build the bridge JAR
-- ✅ Launch the HTTP + SSE server on port 8765
-- ✅ Open dashboard at http://localhost:8765/dashboard
+- Verify Java installation
+- Compile Java source files  
+- Build the bridge JAR
+- Launch the HTTP + SSE server on port 8765
+- Open dashboard at http://localhost:8765/dashboard
 
 ### Step 5 — View Dashboard
 The browser opens automatically. You can also open manually:
@@ -98,7 +98,7 @@ http://localhost:8765/dashboard
 
 ---
 
-## 📡 System Flow
+## System Flow
 
 ```
 Arduino Uno
@@ -120,7 +120,7 @@ Browser (Real-time display)
 
 ---
 
-## 🔗 API Endpoints
+## API Endpoints
 
 | Endpoint          | Description                          |
 |-------------------|--------------------------------------|
@@ -132,7 +132,7 @@ Browser (Real-time display)
 
 ---
 
-## 🛠 Troubleshooting
+## Troubleshooting
 
 **"No serial port found"**  
 → Arduino not connected, or wrong drivers. Install CH340/FTDI drivers.
@@ -151,7 +151,7 @@ Browser (Real-time display)
 
 ---
 
-## 📋 Serial JSON Format (Arduino → Java)
+## Serial JSON Format (Arduino → Java)
 
 ```json
 {
